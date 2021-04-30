@@ -13,7 +13,6 @@ using System.Net.Sockets; // 網路通訊物件函數
 using System.Threading; // 多執行緒函數
 using System.Collections;
 
-
 // 在此要用到多執行緒，事實上在伺服器與多客戶同時連線時，
 // 每一個客戶與伺服器之間都需要一個獨立的執行緒，連線數目越多就會有越多執行緒。
 
